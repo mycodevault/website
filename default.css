@@ -1,0 +1,191 @@
+body{
+	font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    text-align: center;
+}
+
+
+br{
+clear: both;
+}
+
+h1{
+	text-align: center;
+}
+
+.wrapperDiv{
+	width: 100%;
+	margin: 0 auto;
+
+}
+
+#headerDiv{
+font-size: 5em;
+padding-top: 10px;
+padding-bottom: 10px;
+text-align: center;
+width:100%;
+margin-bottom: -20px;
+}
+
+button:focus {
+outline: red solid 5px;
+}
+
+
+#buttonvBarDiv {
+text-align: center;
+}
+
+.buttonClass{
+padding: 15px;	
+font-size: 3em;
+font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+width:13%;
+border: 2px solid grey; 
+}
+#button1{
+background-color: yellow;
+color: black;
+
+}
+#button2{
+background-color: black;
+color: yellow;	
+}
+#button3{
+background-color: white;
+color: black;	
+}
+#button4{
+background-color: black;
+color: orange;
+}
+#button5{
+background-color: black;
+color: white;
+}
+#button6{
+background-color: black;
+color: white;
+}
+#button7{
+background-color: black;
+color: white;
+}
+
+#showcaseDiv{
+text-align: center;
+width:100%;
+}
+.appDiv{
+	width: 33%;	
+	float:left;
+	padding-bottom: 50px;
+}
+
+
+
+img.mainPage{
+ width: 95%;
+}
+
+
+
+div.shareDivBar{
+	padding-top:30px;
+	padding-bottom: 30px;
+	text-align: center;
+    width:100%;
+
+}
+
+div.shareDiv{
+	width: 33%;	
+	float:left;
+}
+
+
+
+
+
+
+
+
+
+
+/*product pages*/
+
+img.appPage{
+	width: 100%;
+}
+.downloadDiv{
+	width:100%;
+	text-align: center;
+}
+.DLfromAppStoreImg{
+	
+	border: 2px solid grey;
+	border-radius: 15px;
+	width:400px;	
+}
+
+
+
+
+
+/*iphone 5*/ 
+@media screen and (max-width: 640px)  {
+   
+.buttonClass, .appDiv, div.shareDiv{
+        width:100%;   
+        float:none;
+    }
+    
+    div.shareDiv{padding-bottom: 20px;}
+}
+
+
+/*Media queries - change  sizes for different screen size*/
+/*big monitors*/
+/*max wrapper fixed */
+/*products 3 in row*/
+/*other elements 100%*/
+
+@media only screen and (min-width: 1801) {
+
+#wrapperDiv{
+width: 80%;
+}
+}
+
+@media only screen and (min-width: 1080px)  and (max-width: 1800px)  {
+img.appPage{
+width:70%;
+}
+#wrapperDiv{
+width: 90%;
+}
+}
+/*laptops*/
+/*products 3 in row*/
+/*other elements 100%*/
+@media only screen and (min-width: 769px) and (max-width: 1079px) {
+
+#wrapperDiv{
+width: 100%;
+}
+}
+
+/*phones*/
+/*all elements 100%*/
+/*hide + show menu*/
+@media only screen and (max-width: 768px) {
+	
+#wrapperDiv{
+width: 100%;
+}
+
+
+	
+
+}

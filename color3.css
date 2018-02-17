@@ -1,0 +1,27 @@
+body, a, #headerDiv{
+	color: yellow;
+	background-color: black
+}
+
+
+
+.backLinkDiv{
+	background-color: yellow;
+	text-align: left;
+}
+
+ a.backLink{
+	color:black;
+	background-color: yellow;
+	text-decoration: none;
+}
+
+div.shareDivBar{
+	background-color: yellow;
+}
+
+a.shareLink{
+	color:black;
+	background-color: yellow;
+	text-decoration: none;
+}

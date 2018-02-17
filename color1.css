@@ -1,0 +1,28 @@
+body, a, #headerDiv{
+	color: black;
+	background-color: white;
+}
+
+
+
+.backLinkDiv{
+	background-color: black;
+	text-align: left;
+}
+
+ a.backLink{
+	color:white;
+	background-color: black;
+	text-decoration: none;
+}
+
+
+div.shareDivBar{
+	background-color: black;
+}
+
+a.shareLink{
+	color:white;
+	background-color: black;
+	text-decoration: none;
+}
