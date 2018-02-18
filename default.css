@@ -133,73 +133,131 @@ img.appPage{
 
 
 
-/*iphone 5 to ipad mini*/ 
-@media screen and (max-width: 768px)  {
+
+/*phones*/ 
+@media screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio : 1) {
    
 .buttonClass, .appDiv, div.shareDiv{
-width:100%;   
-float:none;
-}
+        width:100%;   
+        float:none;
+    }
     
-div.shareDiv{
-padding-bottom: 20px;
+    div.shareDiv{padding-bottom: 20px;}
 }
-
-#wrapperDiv{
-width: 100%;
-}
-	
-}
-
-
-/* iPad Mini in portrait only */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) { 
-
+@media screen and (max-width: 767px)  and (-webkit-min-device-pixel-ratio : 2) {
+   
 .buttonClass, .appDiv, div.shareDiv{
-width:100%;   
-float:none;
-}
+        width:100%;   
+        float:none;
+    }
     
-div.shareDiv{
-padding-bottom: 20px;
+    div.shareDiv{
+    	padding-bottom: 20px;
+    }
 }
+
+@media screen and (max-width: 767px)  and (-webkit-min-device-pixel-ratio : 3) {
+   
+.buttonClass, .appDiv, div.shareDiv{
+        width:100%;   
+        float:none;
+    }
+    
+    div.shareDiv{
+    	padding-bottom: 20px;
+    }
+}
+
+
+
+/*tablets*/
+@media screen and (min-width: 768px) and (max-width:834px) and (-webkit-min-device-pixel-ratio : 1) and (orientation:portrait) {
+   
+.buttonClass, .appDiv, div.shareDiv{
+        width:100%;   
+        float:none;
+    }
+    
+    div.shareDiv{padding-bottom: 20px;}
+}
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width:834px) and (-webkit-min-device-pixel-ratio : 2) and (orientation:portrait)  {
+   
+.buttonClass, .appDiv, div.shareDiv{
+        width:100%;   
+        float:none;
+    }
+    
+    div.shareDiv{
+    	padding-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:834px) and (-webkit-min-device-pixel-ratio : 3) and (orientation:portrait)  {
+   
+.buttonClass, .appDiv, div.shareDiv{
+        width:100%;   
+        float:none;
+    }
+    
+    div.shareDiv{
+    	padding-bottom: 20px;
+    }
+}
+
+
+
+/*monitors + laptops*/
+/*small*/
+
+@media only screen and (min-width: 600px) and (max-width: 1079px) {
 
 #wrapperDiv{
 width: 100%;
 }
 }
 
-/*Media queries - change  sizes for different screen size*/
-/*big monitors*/
-/*max wrapper fixed */
-/*products 3 in row*/
-/*other elements 100%*/
+/*medium*/
 
-@media only screen and (min-width: 1801) {
-
-#wrapperDiv{
-width: 80%;
-}
-}
-
-@media only screen and (min-width: 1080px)  and (max-width: 1800px)  {
+@media only screen and (min-width: 1080px)  and (max-width: 1499px)  {
 img.appPage{
-width:70%;
+width:80%;
 }
 #wrapperDiv{
 width: 90%;
 }
 }
-/*laptops*/
-/*products 3 in row*/
-/*other elements 100%*/
-@media only screen and (min-width: 769px) and (max-width: 1079px) {
 
+/*large*/
+@media only screen and (min-width: 1500px) {
+img.appPage{
+width:70%;
+}
 #wrapperDiv{
-width: 100%;
+width: 80%;
 }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
