@@ -133,15 +133,22 @@ img.appPage{
 
 
 
-/*iphone 5*/ 
-@media screen and (max-width: 640px)  {
+/*iphone 5 to ipad mini*/ 
+@media screen and (max-width: 768px)  {
    
 .buttonClass, .appDiv, div.shareDiv{
-        width:100%;   
-        float:none;
-    }
+width:100%;   
+float:none;
+}
     
-    div.shareDiv{padding-bottom: 20px;}
+div.shareDiv{
+padding-bottom: 20px;
+}
+
+#wrapperDiv{
+width: 100%;
+}
+	
 }
 
 
@@ -176,19 +183,3 @@ width: 100%;
 }
 }
 
-/*phones*/
-/*all elements 100%*/
-/*hide + show menu*/
-@media only screen and (max-width: 768px) {
-	
-#wrapperDiv{
-width: 100%;
-}
-}
-/*ipad mini high res portrait*/
-@media only screen and (max-width: 768px)  and (resolution: 163dpi) {
-	
-#wrapperDiv{
-width: 100%;
-}
-}
