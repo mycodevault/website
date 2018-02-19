@@ -129,49 +129,13 @@ img.appPage{
 	width:400px;	
 }
 
+/*IT IS VERY IMPORTANT TO MAKE THE WEBPAGE SINGLE STACK otherwise the button font and link font will clip when largest size is choosen*/
 
+/*any device size below 100 is single stacked.....everything else is 100% for max clarity*/
 
-
-
-
-/*phones*/ 
-@media screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio : 1) {
-   
-.buttonClass, .appDiv, div.shareDiv{
-        width:100%;   
-        float:none;
-    }
-    
-    div.shareDiv{padding-bottom: 20px;}
-}
-@media screen and (max-width: 767px)  and (-webkit-min-device-pixel-ratio : 2) {
-   
-.buttonClass, .appDiv, div.shareDiv{
-        width:100%;   
-        float:none;
-    }
-    
-    div.shareDiv{
-    	padding-bottom: 20px;
-    }
-}
-
-@media screen and (max-width: 767px)  and (-webkit-min-device-pixel-ratio : 3) {
-   
-.buttonClass, .appDiv, div.shareDiv{
-        width:100%;   
-        float:none;
-    }
-    
-    div.shareDiv{
-    	padding-bottom: 20px;
-    }
-}
-
-
-
-/*tablets*/
-@media screen and (min-width: 768px) and (max-width:834px) and (-webkit-min-device-pixel-ratio : 1) and (orientation:portrait) {
+@media screen 
+and (max-width: 1000px) 
+and (-webkit-min-device-pixel-ratio : 1){
    
 .buttonClass, .appDiv, div.shareDiv{
         width:100%;   
@@ -181,11 +145,9 @@ img.appPage{
     div.shareDiv{padding-bottom: 20px;}
 }
 
-
-
-
-
-@media screen and (min-width: 768px) and (max-width:834px) and (-webkit-min-device-pixel-ratio : 2) and (orientation:portrait)  {
+@media screen 
+and (max-width: 1000px)  
+and (-webkit-min-device-pixel-ratio : 2) {
    
 .buttonClass, .appDiv, div.shareDiv{
         width:100%;   
@@ -197,7 +159,9 @@ img.appPage{
     }
 }
 
-@media screen and (min-width: 768px) and (max-width:834px) and (-webkit-min-device-pixel-ratio : 3) and (orientation:portrait)  {
+@media screen 
+and (max-width: 1000px)  
+and (-webkit-min-device-pixel-ratio : 1) {
    
 .buttonClass, .appDiv, div.shareDiv{
         width:100%;   
@@ -211,36 +175,6 @@ img.appPage{
 
 
 
-/*monitors + laptops*/
-/*small*/
-
-@media only screen and (min-width: 600px) and (max-width: 1079px) {
-
-#wrapperDiv{
-width: 100%;
-}
-}
-
-/*medium*/
-
-@media only screen and (min-width: 1080px)  and (max-width: 1499px)  {
-img.appPage{
-width:80%;
-}
-#wrapperDiv{
-width: 90%;
-}
-}
-
-/*large*/
-@media only screen and (min-width: 1500px) {
-img.appPage{
-width:70%;
-}
-#wrapperDiv{
-width: 80%;
-}
-}
 
 
 
