@@ -1,6 +1,6 @@
 body, a, #headerDiv{
 	color: black;
-	background-color: white;
+	background-color: yellow;
 }
 
 
@@ -11,18 +11,17 @@ body, a, #headerDiv{
 }
 
  a.backLink{
-	color:white;
+	color:yellow;
 	background-color: black;
 	text-decoration: none;
 }
-
 
 div.shareDivBar{
 	background-color: black;
 }
 
 a.shareLink{
-	color:white;
+	color:yellow;
 	background-color: black;
 	text-decoration: none;
 }
