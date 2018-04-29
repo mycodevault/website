@@ -116,7 +116,8 @@ div.shareDiv{
 /*product pages*/
 
 img.appPage{
-	width: 100%;
+	width:100%;
+	border: 5px solid grey;
 }
 .downloadDiv{
 	width:100%;
