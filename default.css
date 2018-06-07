@@ -77,8 +77,9 @@ color: white;
 text-align: center;
 width:100%;
 }
+/*for 2 columms --- set to 33% for 3 columns*/
 .appDiv{
-	width: 33%;	
+	width: 50%;	
 	float:left;
 	padding-bottom: 50px;
 }
