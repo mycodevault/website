@@ -136,12 +136,48 @@ img.appPage{
 
 /*any device size below 100 is single stacked.....everything else is 100% for max clarity*/
 
+/*iphone portrait*/
+
+@media screen 
+and (max-width: 500px) 
+and (-webkit-min-device-pixel-ratio : 1){
+   
+   .headerDiv{
+   	font-size: 1em;
+   }
+
+.buttonClass, .appDiv, div.shareDiv{
+        width:100%;   
+        float:none;
+    }
+    
+    div.shareDiv{padding-bottom: 20px;}
+}
+
+@media screen 
+and (max-width: 500px)  
+and (-webkit-min-device-pixel-ratio : 2) {
+
+	 .headerDiv{
+   	font-size: 1em;
+   }
+   
+.buttonClass, .appDiv, div.shareDiv{
+        width:100%;   
+        float:none;
+    }
+    
+    div.shareDiv{
+    	padding-bottom: 20px;
+    }
+}
+
 @media screen 
 and (max-width: 1000px) 
 and (-webkit-min-device-pixel-ratio : 1){
    
 .buttonClass, .appDiv, div.shareDiv{
-        width:100%;   
+        width:90%;   
         float:none;
     }
     
@@ -153,7 +189,7 @@ and (max-width: 1000px)
 and (-webkit-min-device-pixel-ratio : 2) {
    
 .buttonClass, .appDiv, div.shareDiv{
-        width:100%;   
+        width:90%;   
         float:none;
     }
     
