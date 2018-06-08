@@ -142,9 +142,7 @@ img.appPage{
 and (max-width: 500px) 
 and (-webkit-min-device-pixel-ratio : 1){
    
-   .headerDiv{
-   	font-size: 1em;
-   }
+
 
 .buttonClass, .appDiv, div.shareDiv{
         width:100%;   
@@ -158,9 +156,7 @@ and (-webkit-min-device-pixel-ratio : 1){
 and (max-width: 500px)  
 and (-webkit-min-device-pixel-ratio : 2) {
 
-	 .headerDiv{
-   	font-size: 1em;
-   }
+
    
 .buttonClass, .appDiv, div.shareDiv{
         width:100%;   
