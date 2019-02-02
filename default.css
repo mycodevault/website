@@ -132,6 +132,11 @@ img.appPage{
 	width:400px;	
 }
 
+
+
+
+
+
 /*IT IS VERY IMPORTANT TO MAKE THE WEBPAGE SINGLE STACK otherwise the button font and link font will clip when largest size is choosen*/
 
 /*any device size below 100 is single stacked.....everything else is 100% for max clarity*/
@@ -142,6 +147,21 @@ img.appPage{
 and (max-width: 500px) 
 and (-webkit-min-device-pixel-ratio : 1){
    
+
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
 
 
 .buttonClass, .appDiv, div.shareDiv{
@@ -156,6 +176,19 @@ and (-webkit-min-device-pixel-ratio : 1){
 and (max-width: 500px)  
 and (-webkit-min-device-pixel-ratio : 2) {
 
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
 
    
 .buttonClass, .appDiv, div.shareDiv{
