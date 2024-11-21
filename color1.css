@@ -1,5 +1,5 @@
 /*black on yellow */
-body, a, #headerDiv{
+body, a{
 	color: black;
 	background-color: yellow;
 }
@@ -8,21 +8,16 @@ body, a, #headerDiv{
 
 .backLinkDiv{
 	background-color: black;
-	text-align: left;
 }
 
  a.backLink{
 	color:yellow;
 	background-color: black;
-	text-decoration: none;
 }
 
-div.shareDivBar{
-	background-color: black;
-}
-
-a.shareLink{
+.share-buttons a {
 	color:yellow;
 	background-color: black;
-	text-decoration: none;
+	
 }
+

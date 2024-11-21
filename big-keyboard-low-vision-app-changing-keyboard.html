@@ -1,133 +1,168 @@
-<!DOCTYPE  html>
+<!DOCTYPE html>
 <html lang="en-us" itemscope itemtype="http://schema.org/Product" prefix="og: http://ogp.me/ns#">
+
 <head>
+    <!-- Title -->
+    <title>Big Keys Support - How to Switch Keyboards</title>
 
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta charset="utf-8" />
+    <!-- Meta Tags for SEO -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn how to switch from the default keyboard to Big Keys, a large-print keyboard for low vision users, with our step-by-step guide.">
+    <meta name="keywords" content="Big Keys, keyboard app, low vision, accessibility, iOS keyboard, switch keyboards, large print keyboard">
+    <link rel="canonical" href="/big-keyboard-low-vision-app-changing-keyboard.html">
+    <meta name="robots" content="all, index, follow">
 
-      <link rel="canonical" href="/big-keyboard-low-vision-app-changing-keyboard.html" /> 
+    <!--preload colors-->
+    <link rel="preload" href="color1.css" as="style">
+    <link rel="preload" href="color2.css" as="style">
+    <link rel="preload" href="color3.css" as="style">
+    <link rel="preload" href="color4.css" as="style">
 
-      <meta name= "allow-search" content= "yes" />
-      <meta name= "audience" content="all" />
-      <meta name= "robots" content="all, index, follow" />
-      <meta name= "revisit-after" content="3 days" />
-      <meta name= "Rating" content="General" />
-      <meta name= "distribution" content="Global" />
+    <!--favicon-->
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-title" content="Large Print Apps">
+    <link rel="manifest" href="/site.webmanifest">
 
-   
-      
-  
-      <!-- Place this data between the <head> tags of your website -->
-      <title>Big Keys App - How to change Keyboards. </title>  
-      <meta name= "keywords" content="Big Key App How to change Keyboards, Large Print, Low Vision, ipad Keyboard App" />
-      <meta name= "description" content="Big Keys App - How to change Keyboards." />
-  
+    <!--color switcher-->
+    <script src="styleSwitcher.js"></script>  
+    <link id="colorOptions" rel="stylesheet" type="text/css" href="color1.css">
+    <link rel="stylesheet" href="default.css">
 
-      <!-- Twitter Card data -->
-      <meta name="twitter:card" content="summary_large_image">
-      <meta name="twitter:site" content="@cappyrous">
-      <meta name="twitter:title" content="Big Keys App - How to change Keyboards.">
-      <meta name="twitter:description" content="Big Keys is a Large Print iPad Keyboard for Low Vision iPad users.">
-      <meta name="twitter:creator" content="@cappyrous">
-      <meta name="twitter:image" content="https://www.large-print-apps.com/images/Big-Keys-Low-Vision-Keyboard-change-keyboards-1.png">
-      <meta name="twitter:data2" content="Black">
-      <meta name="twitter:label2" content="Color">
-
-      <!-- Open Graph data -->
-      <meta property="og:title" content="Big Keys App - How to change Keyboards."/>
-      <meta property="og:type" content="product" />
-      <meta property="og:url" content="http://www.large-print-apps.com/big-keyboard-low-vision-app-changing-keyboard.html" />
-      <meta property="og:image" content="http://www.large-print-apps.com/images/Big-Keys-Low-Vision-Keyboard-change-keyboards-1.png" />
-      <meta property="og:description" content="Big Keys is a Large Print iPad Keyboard for Low Vision iPad users." />
-      <meta property="og:site_name" content="Is the iPad Keyboard too small for you? Check out Big Keys." />
-
-
-
-
-<script src="styleSwitcher.js"></script>	
-<link rel="stylesheet" type="text/css" href="default.css">
-<link id="colorOptions" rel= "stylesheet" type="text/css" href="color1.css">
-<link id="fontSizeOptions" rel= "stylesheet" type="text/css" href="fontSize1.css">
-
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "How to Switch from the Default Keyboard to Big Keys",
+      "description": "Follow these steps to set up and use the Big Keys keyboard app on your device.",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Step 1: Open an App That Requires a Keyboard",
+          "text": "Tap on any app that requires a keyboard, such as Notes.",
+          "image": "https://example.com/images/Big-Keys-Low-Vision-Keyboard-change-keyboards-1.png"
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Step 2: Create a New Note",
+          "text": "Tap the New Note icon on the upper-right corner. Tap anywhere on the note to bring up the default keyboard.",
+          "image": "https://example.com/images/Big-Keys-Low-Vision-Keyboard-change-keyboards-2.png"
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Step 3: Check for the Globe Icon",
+          "text": "If the globe icon is missing, Big Keys is not installed. Install it before continuing.",
+          "image": "https://example.com/images/Big-Keys-Low-Vision-Keyboard-change-keyboards-3.png"
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Step 4: Choose Big Keys",
+          "text": "Tap the globe icon and select Big Keys from the list.",
+          "image": "https://example.com/images/Big-Keys-Low-Vision-Keyboard-change-keyboards-4.png"
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Step 5: Big Keys is Ready",
+          "text": "The Big Keys keyboard will now appear and is ready to use.",
+          "image": "https://example.com/images/Big-Keys-Low-Vision-Keyboard-change-keyboards-5.png"
+        }
+      ]
+    }
+    </script>
 </head>
 
 <body onload="loadCustomStyles()">
-<div class="wrapperDiv">
-	<div id="buttonvBarDiv">
-<button id="button1" class="buttonClass" onclick="swapColorStyleSheet('color1.css')">ABC</button>
-<button id="button2" class="buttonClass" onclick="swapColorStyleSheet('color3.css')">ABC</button>
-<button id="button3" class="buttonClass" onclick="swapColorStyleSheet('color2.css')">ABC </button>
-<button id="button4" class="buttonClass" onclick="swapColorStyleSheet('color4.css')">ABC </button>
-<button id="button5" class="buttonClass" onclick="swapFontSizeStyleSheet('fontSize1.css')">L</button>
-<button id="button6" class="buttonClass" onclick="swapFontSizeStyleSheet('fontSize2.css')">XL</button>
-<button id="button7" class="buttonClass" onclick="swapFontSizeStyleSheet('fontSize3.css')">XXL </button>
-</div>
+    <div class="wrapperDiv">
+        <!-- Header -->
+        <header>
+            <style-switcher-component aria-label="Style Switcher"></style-switcher-component>
+            <script src="styleSwitcher-component.js" defer></script>
+            <h1>How to Switch Keyboards</h1>
+            <p>Once Big Keys is installed, follow these steps to switch from the default keyboard to Big Keys.</p>
+        </header>
+
+        <!-- Navigation -->
+            <!-- Back Link -->
+         <nav aria-label="Navigation">
+            <div class="backLinkDiv">
+                <a class="backLink" href="big-keyboard-low-vision-app-instructions-list.html" aria-label="Back to instructions list">
+                    &#9664; Back to Instructions List
+                </a>
+            </div>
+            </nav>
+
+        <!-- Main Content -->
+        <main>
  
- <div id="headerDiv">
-Big Keyboard 
-</div>
-<h1>Changing Keyboards</h1>
 
+            <article aria-labelledby="steps-heading">
+                <h2 id="steps-heading">Step-by-Step Guide</h2>
 
+                <!-- Step 1 -->
+                <section aria-labelledby="step-1">
+                    <h3 id="step-1">Step 1: Open an App That Requires a Keyboard</h3>
+                    <p>Open an app like Notes where you can use a keyboard.</p>
+                    <figure>
+                        <img class="appPage" src="images/Big-Keys-Low-Vision-Keyboard-change-keyboards-1.png" alt="Open Notes app">
+                        <figcaption>Access the Notes app to begin.</figcaption>
+                    </figure>
+                </section>
 
-<div class="downloadDiv">
-<a href="https://itunes.apple.com/us/app/big-keys-low-vision-keyboard/id1139220959?mt=8"><img class="DLfromAppStoreImg" src="images/download-from-the-app-store.png" alt="download Big Keys from the appstore" /></a>
-</div>
-<br/>
-<div class="backLinkDiv">
-<a class="backLink" href="big-keyboard-low-vision-app-instructions-list.html">&lt;&lt; BACK TO  LIST</a> 
-</div>
+                <!-- Step 2 -->
+                <section aria-labelledby="step-2">
+                    <h3 id="step-2">Step 2: Create a New Note</h3>
+                    <p>Tap the <strong>New Note</strong> icon in the top-right corner, then tap inside the note to bring up the default keyboard.</p>
+                    <figure>
+                        <img class="appPage" src="images/Big-Keys-Low-Vision-Keyboard-change-keyboards-2.png" alt="Create a new note">
+                        <figcaption>Tap the New Note icon to continue.</figcaption>
+                    </figure>
+                </section>
 
+                <!-- Step 3 -->
+                <section aria-labelledby="step-3">
+                    <h3 id="step-3">Step 3: Check for the Globe Icon</h3>
+                    <p>
+                        If the <strong>globe icon</strong> is missing, Big Keys is not installed. 
+                        Follow the <a href="big-keyboard-low-vision-app-installation-keyboard-app.html" aria-label="Keyboard installation instructions">installation instructions</a>.
+                    </p>
+                    <figure>
+                        <img class="appPage" src="images/Big-Keys-Low-Vision-Keyboard-change-keyboards-3.png" alt="Check for globe icon">
+                        <figcaption>The globe icon indicates installed alternate keyboards.</figcaption>
+                    </figure>
+                </section>
 
+                <!-- Step 4 -->
+                <section aria-labelledby="step-4">
+                    <h3 id="step-4">Step 4: Choose Big Keys</h3>
+                    <p>Tap the globe icon and select Big Keys from the list of keyboards.</p>
+                    <figure>
+                        <img class="appPage" src="images/Big-Keys-Low-Vision-Keyboard-change-keyboards-4.png" alt="Select Big Keys keyboard">
+                        <figcaption>Select Big Keys from the available options.</figcaption>
+                    </figure>
+                </section>
 
+                <!-- Step 5 -->
+                <section aria-labelledby="step-5">
+                    <h3 id="step-5">Step 5: Big Keys is Ready</h3>
+                    <p>The Big Keys keyboard will now appear and is ready to use.</p>
+                    <figure>
+                        <img class="appPage" src="images/Big-Keys-Low-Vision-Keyboard-change-keyboards-5.png" alt="Big Keys keyboard displayed">
+                        <figcaption>Big Keys keyboard successfully switched.</figcaption>
+                    </figure>
+                </section>
+            </article>
+        </main>
 
-
-<h1>Once you have installed Big Keys, here is how to switch from the Default Keyboard to Big Keys. </h1>
-<h1>Step 1:  </h1>
-<img  class="appPage" src="images/Big-Keys-Low-Vision-Keyboard-change-keyboards-1.png">
-<br/>
-<h1>Step 2:  </h1>
-<img  class="appPage" src="images/Big-Keys-Low-Vision-Keyboard-change-keyboards-2.png">
-<br/>
-<h1>Step 3:  If you do not see a globe in the default keyboard, this means that big keys is not installed.  The globe only appears if you have installed an alternative keyboard to switch to.</h1>
-<img  class="appPage" src="images/Big-Keys-Low-Vision-Keyboard-change-keyboards-3.png">
-<br/>
-<h1>Step 4:  </h1>
-<img  class="appPage" src="images/Big-Keys-Low-Vision-Keyboard-change-keyboards-4.png">
-<br/>
-<h1>Step 5:  </h1>
-<img  class="appPage" src="images/Big-Keys-Low-Vision-Keyboard-change-keyboards-5.png">
-<br/>
-<br/>
-
-
-
-
-<br/>
-</div>
-
-<div class="wrapper">
-
-		<div class="shareDivBar">
-		<div class="shareDiv">
-	 		<a  class="shareLink" href="mailto:mymail@mylarge-print-apps.com"
-    onclick="this.href=this.href.replace(/my/g,'');">CONTACT</a>
-			
-		</div>
-		<div class="shareDiv">
-	
-			<a class="shareLink" href="https://twitter.com/share?url=https://www.large-print-apps.com/big-keyboard-low-vision-app-changing-keyboard.html&amp;text=%20Big%20Keyboard%20App%20for%20iPad%20Low%20Vision%20users%20&amp;hashtags=visuallyimpaired,lowvision" target="_blank"" target="_blank">TWITTER</a>	
-		</div>
-		<div class="shareDiv">
-			
-			<a class="shareLink" href="https://www.facebook.com/sharer.php?u=http://www.large-print-apps.com/big-keyboard-low-vision-app-changing-keyboard.html" target="_blank">FACEBOOK</a>
-		</div>
-
-		<br/>
-		<br/>
-	</div>
-
-</div>
+        <!-- Footer -->
+        <footer>
+            <footer-component aria-label="Footer"></footer-component>
+            <script src="footer-component.js" defer></script>
+        </footer>
+    </div>
 </body>
 
-</html> 
+</html>

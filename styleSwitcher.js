@@ -1,42 +1,16 @@
-function swapColorStyleSheet(colorStyleSheetName){
-	document.getElementById('colorOptions').setAttribute('href', colorStyleSheetName);
-	localStorage.setItem("colorCssKey", colorStyleSheetName)
-}
-function swapFontSizeStyleSheet(fontStyleSheetName){
-	document.getElementById('fontSizeOptions').setAttribute('href', fontStyleSheetName);
-	localStorage.setItem("fontCssKey", fontStyleSheetName)
+function swapColorStyleSheet(colorStyleSheetName) {
+    // Set the new stylesheet and store it in localStorage
+    document.getElementById('colorOptions').setAttribute('href', colorStyleSheetName);
+    localStorage.setItem("colorCssKey", colorStyleSheetName);
 }
 
-function loadCustomStyles(){
- if (localStorage.key(0) == "colorCssKey" || localStorage.key(1) == "colorCssKey" ){
-	document.getElementById('colorOptions').setAttribute('href', localStorage.getItem("colorCssKey"))
+function loadCustomStyles() {
+    // Retrieve the saved stylesheet from localStorage
+    const savedStyleSheet = localStorage.getItem("colorCssKey");
+
+    // If a stylesheet is saved, apply it
+    if (savedStyleSheet) {
+        document.getElementById('colorOptions').setAttribute('href', savedStyleSheet);
     }
- if (localStorage.key(0) == "fontCssKey" || localStorage.key(1) == "fontCssKey" ){
-	document.getElementById('fontSizeOptions').setAttribute('href', localStorage.getItem("fontCssKey"))
-    }   
 }
 
-
-/*
-    storage methods
-	cut down request for user data
-	remembers data for the user - shopping cart, style, userdetails
-	local 5mb file - data cache
-
-	short term mem
-	session storage does not retain over copy paste links or open in new tab or after browser closed - 
- 
-    long term mem
-    data persist over browser closed and  copy paste link
-
-	.length - number of items stored
-	.clear() - deletes storage
-	.key() - keys are stored in ABC order, key(0) returns name of first key
-	.setItem("key1","value1") -
-	.getItem("key1")
-	.removeItem("key1")
-
-
-
-
-*/

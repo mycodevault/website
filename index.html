@@ -1,128 +1,123 @@
-
-<!DOCTYPE  html>
+<!DOCTYPE html>
 <html lang="en-us" itemscope itemtype="http://schema.org/Product" prefix="og: http://ogp.me/ns#">
+
 <head>
+  <link rel="canonical" href="/index.html">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta charset="utf-8" />
-      <link rel="canonical" href="/index.html" />
+  <!-- SEO -->
+  <meta charset="utf-8">
+  <meta name="allow-search" content="yes">
+  <meta name="audience" content="all">
+  <meta name="robots" content="all, index, follow">
+  <meta name="revisit-after" content="3 days">
+  <meta name="Rating" content="General">
+  <meta name="distribution" content="Global">
+  <meta name="description" content="Explore our useful iPhone and iPad apps designed for users with visual impairments and low vision.">
+  <meta name="keywords" content="Large Print Apps, Low Vision Tools, Accessibility Apps, iPhone Apps for Visual Impairment, iPad Accessibility Apps, High Contrast Tools">
 
+  <!-- Title -->
+  <title>Large Print Apps for Low Vision and Visual Impairment</title>
 
-      <meta name= "allow-search" content= "yes" />
-      <meta name= "audience" content="all" />
-      <meta name= "robots" content="all, index, follow" />
-      <meta name= "revisit-after" content="3 days" />
-      <meta name= "Rating" content="General" />
-      <meta name= "distribution" content="Global" />
+  <!-- Preload Colors -->
+  <link rel="preload" href="color1.css" as="style">
+  <link rel="preload" href="color2.css" as="style">
+  <link rel="preload" href="color3.css" as="style">
+  <link rel="preload" href="color4.css" as="style">
 
-   
-      
-  
-      <!-- Place this data between the <head> tags of your website -->
-      <title>Large Print Apps for Low Vision iPad and iPhone users.</title>      
-      <meta name= "keywords" content="Large Print, Low Vision, Visual Impairment App" />
-      <meta name= "description" content="Large Print Apps for Low Vision iPhone and iPad users." />
-  
+  <!-- Color Switcher -->
+  <script src="styleSwitcher.js"></script>
+  <link rel="stylesheet" type="text/css" href="default.css">
+  <link id="colorOptions" rel="stylesheet" type="text/css" href="color1.css">
 
-      <!-- Twitter Card data -->
-      <meta name="twitter:card" content="summary_large_image">
-      <meta name="twitter:site" content="@cappyrous">
-      <meta name="twitter:title" content="Visual Impairment? See Better on your iPad or iPhone.">
-      <meta name="twitter:description" content="Large Print Apps for Low Vision iPhone and iPad users">
-      <meta name="twitter:creator" content="@cappyrous">
-      <meta name="twitter:image" content="https://www.large-print-apps.com/images/large-print-apps-for-iphone-and-ipad-low-vision-users.png">
-      <meta name="twitter:data2" content="Black">
-      <meta name="twitter:label2" content="Color">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg">
+  <link rel="shortcut icon" href="favicon/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-title" content="Large Print Apps">
+  <link rel="manifest" href="favicon/site.webmanifest">
 
-      <!-- Open Graph data -->
-      <meta property="og:title" content="Visual Impairment? See Better on your iPad or iPhone"/>
-      <meta property="og:type" content="product" />
-      <meta property="og:url" content="http://www.large-print-apps.com" />
-      <meta property="og:image" content="http://www.large-print-apps.com/images/large-print-apps-for-iphone-and-ipad-low-vision-users.png" />
-      <meta property="og:description" content="Large Print Apps for Low Vision iPhone and iPad users." />
-      <meta property="og:site_name" content="Visual Impairment? See Better on your iPad or iPhone." />
-
-
-
-<script src="styleSwitcher.js"></script>	
-<link rel="stylesheet" type="text/css" href="default.css">
-<link id="colorOptions" rel= "stylesheet" type="text/css" href="color1.css">
-<link id="fontSizeOptions" rel= "stylesheet" type="text/css" href="fontSize1.css">
-
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Homepage",
+    "url": "https://www.large-print-apps.com",
+    "description": "Welcome to our website. Explore useful iPhone and iPad apps for Visual Impairment.",
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.large-print-apps.com"
+        }
+      ]
+    }
+  }
+  </script>
 </head>
-<body onload= "loadCustomStyles()">
-<div class="wrapperDiv">
 
-<div id="buttonvBarDiv">
-<button id="button1" class="buttonClass" onclick="swapColorStyleSheet('color1.css')">ABC</button>
-<button id="button2" class="buttonClass" onclick="swapColorStyleSheet('color3.css')">ABC</button>
-<button id="button3" class="buttonClass" onclick="swapColorStyleSheet('color2.css')">ABC </button>
-<button id="button4" class="buttonClass" onclick="swapColorStyleSheet('color4.css')">ABC </button>
-<button id="button5" class="buttonClass" onclick="swapFontSizeStyleSheet('fontSize1.css')">L</button>
-<button id="button6" class="buttonClass" onclick="swapFontSizeStyleSheet('fontSize2.css')">XL</button>
-<button id="button7" class="buttonClass" onclick="swapFontSizeStyleSheet('fontSize3.css')">XXL </button>
-</div>
+  <body onload="loadCustomStyles()">
+    <div class="wrapperDiv">
+    <header>
+      <style-switcher-component></style-switcher-component>
+      <script src="styleSwitcher-component.js"></script>
+      <h1>Large Print Apps</h1>
+      <p>Accessible solutions for low vision users</p>
+    </header>
 
-<!--
-<div id="headerDiv">
-LARGE-PRINT-APPS.COM
-</div>
--->
-<h1>
-LARGE-PRINT-APPS
-</h1>
-<h1>Apps for Low Vision <br/>Visual Impairment </h1>
-	<br/>
+      <main>
+        <!-- App Introduction Section -->
+             <section aria-labelledby="intro">
+        <h2 id="intro">Explore Apps for Visual Accessibility</h2>
+        <p>Discover iPhone and iPad apps tailored to enhance accessibility for individuals with low vision or visual impairments.</p>
+      </section>
 
-	<div id="showcaseDiv">
-		<div class="appDiv">
-			<a href="big-keyboard-low-vision-app.html"><img class="mainPage" src="images/big-keyboard-low-vision-ipad.png" alt="Large Print Big Keyboard App" /></a>
-			<a href="big-keyboard-low-vision-app.html">BIG KEYBOARD</a>
-		</div>
-		<div class="appDiv">
-			<a href="big-calculator-low-vision-app.html"><img class="mainPage" src="images/big-calculator-for-low-vision.png" alt="Large Print Big Calculator App" /></a>
-			<a href="big-calculator-low-vision-app.html">BIG CALCULATOR</a>	
-		</div>
-		<div class="appDiv">
-			<a href="big-list-low-vision-note-taking-app.html"><img class="mainPage" src="images/big-list-low-vision-note-taking-app.png" alt="Large Print Note Taking List Maker App"/></a>
-			<a href="big-list-low-vision-note-taking-app.html">BIG LIST NOTES</a>
-		</div>
-		<div class="appDiv">
-			<a href="big-cam-low-vision-app.html"><img class="mainPage" src="images/big-cam-low-vision-app.png" alt="Large Print Cam App"/></a>
-			<a href="big-cam-low-vision-app.html">BIG CAM</a>
-		</div>
-		<br/>
-		<br/>
-	</div>
-</div>
-<div class="wrapperDiv">
+        <!-- App Listings Section -->
+        <section aria-labelledby="app-listings">
+                 <div id="apps-container">
+            <article class="appDiv" aria-labelledby="big-keyboard">
+              <a href="big-keyboard-low-vision-app.html">
+                <img class="mainPage" src="images/big-keyboard-low-vision-ipad.png" alt="Large Print Big Keyboard App">
+              </a>
+              <h3 id="big-keyboard">BIG KEYBOARD</h3>
+              <p class="appText">A large print keyboard app designed for low vision iPad users.</p>
+            </article>
 
-	<div class="shareDivBar">
-		<div class="shareDiv">
-	 		<a  class="shareLink" href="mailto:mymail@mylarge-print-apps.com"
-    onclick="this.href=this.href.replace(/my/g,'');">CONTACT</a>
-			
-		</div>
-		<div class="shareDiv">
-	
-			<a class="shareLink" href="https://twitter.com/share?url=https://www.large-print-apps.com&amp;text=%20Large%20Print%20Apps%20for%20iPad%20and%20iPhone%20Low%20Vision%20users%20&amp;hashtags=visuallyimpaired,lowvision" target="_blank" target="_blank">TWITTER</a>	
-		</div>
-		<div class="shareDiv">
-			
-			<a class="shareLink" href="https://www.facebook.com/sharer.php?u=http://www.large-print-apps.com" target="_blank">FACEBOOK</a>
-		</div>
+            <article class="appDiv" aria-labelledby="big-calculator">
+              <a href="big-calculator-low-vision-app.html">
+                <img class="mainPage" src="images/big-calculator-for-low-vision.png" alt="Large Print Big Calculator App">
+              </a>
+              <h3 id="big-calculator">BIG CALCULATOR</h3>
+              <p class="appText">A high-contrast calculator app optimized for visual impairments.</p>
+            </article>
 
-		<br/>
-        <br/>
-        	How to customise your iPad for Low Vision Users.
-	</div>
+            <article class="appDiv" aria-labelledby="big-list-notes">
+              <a href="big-list-low-vision-note-taking-app.html">
+                <img class="mainPage" src="images/big-list-low-vision-note-taking-app.png" alt="Large Print Note Taking List Maker App">
+              </a>
+              <h3 id="big-list-notes">BIG LIST NOTES</h3>
+              <p class="appText">A simple and accessible note-taking app for individuals with low vision.</p>
+            </article>
 
-<h1>
-Privacy Policy: The only data that you save to your device is your choice of colors, no other data is collected.
-</h1>
+            <article class="appDiv" aria-labelledby="big-cam">
+              <a href="big-cam-low-vision-app.html">
+                <img class="mainPage" src="images/big-cam-low-vision-app.png" alt="Large Print Cam App">
+              </a>
+              <h3 id="big-cam">BIG CAM</h3>
+              <p class="appText">An easy-to-use camera app designed for those with visual impairments.</p>
+            </article>
+          </div>
+        </section>
+      </main>
 
-</div>
+      <footer-component></footer-component>
+      <script src="footer-component.js"></script>
+    </div>
+  </body>
 
-</body>
 </html>
-

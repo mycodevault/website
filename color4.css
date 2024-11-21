@@ -1,4 +1,4 @@
-body, a, #headerDiv{
+body, a{
 	color: orange;
 	background-color: black;
 }
@@ -7,21 +7,16 @@ body, a, #headerDiv{
 
 .backLinkDiv{
 	background-color: orange;
-	text-align: left;
 }
 
  a.backLink {
 	color:black;
 	background-color: orange;
-	text-decoration: none;
 }
 
-div.shareDivBar{
-	background-color: orange;
-}
-
-a.shareLink{
+.share-buttons a {
 	color:black;
 	background-color: orange;
-	text-decoration: none;
+	
 }
+
