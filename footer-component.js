@@ -69,7 +69,7 @@ class FooterComponent extends HTMLElement {
 </div>
 </section>
 <section> <h1>
-  Privacy Policy: The only data that you save to your device is your choice of colors, no other data is collected.
+  Privacy Policy: No data is collected.
   </h1></section>
 
 </footer>
